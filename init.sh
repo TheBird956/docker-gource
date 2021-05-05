@@ -61,7 +61,7 @@ render () {
 
 # Check if any arguments were passed or if the passed argument is empty
 if [ $# -eq 0 -o -z "$1" ]; then
-  echo "No arguments supplied. Expecting a volume mounted with the repository."
+  echo "No argument for GitHub supplied. Using the mounted volume as the repository."
 
   # Start the rendering process
   render
